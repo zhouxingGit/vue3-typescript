@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/* 阿里矢量图 */
+@import '//at.alicdn.com/t/font_2294717_jmvb101yja.css';
+
+.warp {
+    width:1200px;
+    min-width: 800px;
+}
