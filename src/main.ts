@@ -11,8 +11,8 @@ import "./main.css";
 import "./assets/global.css";
 
 const app = createApp(App);
-
 app.use(Antd);
 app.use(router);
+
 //app.use(store);
 app.mount('#app');

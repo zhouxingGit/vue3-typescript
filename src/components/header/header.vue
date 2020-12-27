@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-      <div class="nav warp">
+      <div class="nav wrap">
         <div class="nav-link">
           <header-nav/>
         </div>

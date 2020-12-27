@@ -45,7 +45,24 @@ export default [
                 },
                 name:"About",
                 component:()=>import("@/view/about/about.vue")
-            }
+            },
+            {
+                path:"/articleDetail/:id",
+                meta:{
+                    title:"文章详情"
+                },
+                name:"articleDetail",
+                component:()=>import("@/view/articleDetail/articleDetail.vue")
+            },
+
+            {
+                path:"/authDetail/:id",
+                meta:{
+                    title:"作者详情"
+                },
+                name:"authDetail",
+                component:()=>import("@/view/authDetail/authDetail.vue")
+            },
         ]
     },
 
@@ -55,7 +72,7 @@ export default [
         component:()=>import("@/view/error-page/304.vue")
     },
     {
-        path:"/404",
+        path:"/:pathMatch(.*)*",
         name:"error_404",
         component:()=>import("@/view/error-page/404.vue")
     },

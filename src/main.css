@@ -19,6 +19,14 @@ a{
     text-decoration: none;
 }
 
-img,a{
+a:hover{
+    color: #212121;
+}
+
+img,a,i,span{
     vertical-align: middle;
+}
+
+ul{
+    list-style: none;
 }

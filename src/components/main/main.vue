@@ -1,14 +1,16 @@
 <template>
   <v-header />
-  <div class="wrap">
+  <div id="content">
     <Suspense>
       <template #default>
-        <router-view />
+        <router-view class="wrap"/>
       </template>
       <template #fallback>
         <h3>loading...</h3>
       </template>
     </Suspense>
+
+    <a-back-top />
   </div>
 
   <v-footer />
