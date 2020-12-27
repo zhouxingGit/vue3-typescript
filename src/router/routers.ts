@@ -9,14 +9,54 @@ export default [
             {
                 path:"/",
                 name:"home",
-                component:()=>import("@/view/home.vue")
+                meta:{
+                    title:"首页"
+                },
+                component:()=>import("@/view/home/home.vue")
             },
             {
-                path:"/about",
-                name:"about",
-                component:()=>import("@/view/about.vue")
+                path:"/JavaScript",
+                name:"js",
+                meta:{
+                    title:"js"
+                },
+                component:()=>import("@/view/JavaScript/JavaScript.vue")
+            },
+            {
+                path:"/ES6",
+                name:"ES6",
+                meta:{
+                    title:"ES6"
+                },
+                component:()=>import("@/view/ES6/ES6.vue")
+            },
+            {
+                path:"/NodeJs",
+                meta:{
+                    title:"NodeJs"
+                },
+                name:"NodeJs",
+                component:()=>import("@/view/nodeJs/nodeJs.vue")
+            },
+            {
+                path:"/About",
+                meta:{
+                    title:"About"
+                },
+                name:"About",
+                component:()=>import("@/view/about/about.vue")
             }
         ]
     },
-   
+
+    {
+        path:"/304",
+        name:"error_304",
+        component:()=>import("@/view/error-page/304.vue")
+    },
+    {
+        path:"/404",
+        name:"error_404",
+        component:()=>import("@/view/error-page/404.vue")
+    },
 ]
