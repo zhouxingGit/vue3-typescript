@@ -14,7 +14,8 @@
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-beta.13",
     "vuex": "^3.6.0",
-    "vuex-persistedstate": "^4.0.0-beta.1"
+    "vuex-persistedstate": "^4.0.0-beta.1",
+    "vue-quill-editor": "^3.0.6"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
